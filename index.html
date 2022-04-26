@@ -23,12 +23,15 @@
                 display: flex;
                 margin-bottom: 0;
             }
+            .nav{
+                margin-left: 400px;
+                margin-top: 10px;
+            }
             .head{
                 font-size: 16px;
                 font-family: "Google Sans",Roboto,Arial,sans-serif;
                 color: lightgray;
                 padding : 32px;
-                margin-top: 32px;
                 text-decoration: none;
             }
             .down-header{
@@ -78,6 +81,7 @@
             .row{
                 display: flex;
                 flex-wrap: wrap;
+                align-items: center;
             }
             .col{
                 background-color: rgb(35, 37, 87);
@@ -145,11 +149,11 @@
                 background-color: black;
                 border: 2px solid rgb(208, 53, 22);
             }
-            .nav{
-                margin-left: 500px;
-            }
+            
             .portfolio{
                 margin-left: 60px;
+                font-size: 32px;
+                margin-top: -2px;
                 color: rgb(185, 131, 60);
             }
             .contact-details{
@@ -159,26 +163,18 @@
             .pro_img{
                 width: 160px; height:160px; 
                 margin-left: 200px; 
-                margin-top: 10px; 
+                margin-top: 20px; 
                 margin-bottom: 20px;
             }
-            @media  (max-width: 700px) {
+            @media  screen and (max-width: 1024px) {
                 .nav{
-                    margin-left: 10px;
-                }
-                .portfolio{
-                    margin-left: 10px;
-                }
-                .head{
-                    margin-left: 0px;
-                    padding: 5px;
+                    margin-left: 200px;
                 }
                 .contact-details{
-                    margin-left: 10px;
-                    
+                    margin-left: 250px;
                 }
                 .pro_img{
-                    margin-left: 6px;
+                    margin-left: 100px;
                 }
             }
             
@@ -187,9 +183,7 @@
     </head>
     <body >
         <header>
-            <div class = "portfolio">
-                <a> portfolio.</a>
-            </div>
+            <strong class = "portfolio" > portfolio.</strong>
             <div class= "nav">
                 <a class = "head" href = "#"> <strong>HOME</strong></a>
                 <a class = "head" href = "#skills"> <strong>SKILLS</strong></a>
@@ -202,7 +196,7 @@
         <div class = "down-header">
             <div style = "margin-top: -33.5px; margin-left: 30px; color: white; ">
                 <div style = "padding-left: 30px;">
-                    <h1></br></br></br> Hello </br> I am Hemanth </h1>
+                    <h1></br></br></br> Hello,</br> I am Hemanth </h1>
                     <p> Student - Programmer - Developer</p>
                     <hr color = "#e1e1e1" width="25%" size="1" style = "margin-left: 2px;">
                     <a href = "" class = "view1" style = "padding: 5px; text-align: center; margin-right: 10px; "> <strong> my resume</strong></a>  
@@ -342,7 +336,7 @@
                         <a href = "https://www.linkedin.com/in/g-hemanth-sai/" style=" text-decoration: none;"> 
                             <img src = "img/linkedin.png" width = "32px" height = "32px" style= "margin-left : 32px;">
                         </a>
-                        <p style = "color: white;"> Privacy policy: Inspect and edit no issues !</p>
+                        <p style = "color: white;"> Privacy policy: Inspect and edit.. no issues !</p>
                     </div>
                     </center>
                     <div class = "pro_img" >
