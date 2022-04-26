@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="utf-8">
+        <title>my website. </title>
+        <style>
+            html {
+                box-sizing: border-box;
+                scroll-behavior: smooth;
+            }
+            html body{
+                margin : 0;
+            }
+            body{
+                background-color: rgb(38, 28, 28);
+            }
+            header{
+                background-color: black;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border : 0%;
+                padding: 16px;
+                border: 1px solid lightgrey; 
+                display: flex;
+                margin-bottom: 0;
+            }
+            .head{
+                font-size: 16px;
+                font-family: "Google Sans",Roboto,Arial,sans-serif;
+                color: lightgray;
+                padding : 32px;
+                margin-top: 32px;
+                text-decoration: none;
+            }
+            .down-header{
+                font-family: Google Sans Display,Roboto,Arial,sans-serif; 
+                background-image: url("bg.webp");
+                background-repeat: repeat;
+                background-size: auto;
+                width: 100%;
+                height: 550px;
+                margin: 0;
+                border-bottom: 2px solid white;
+                font-size: 25px;
+                color: white;
+            }
+            header:hover{
+                border-bottom: 2px solid white;
+
+            }
+
+            .head:hover{
+                color: rgb(185, 131, 60);
+
+            }
+            #whoiam{
+                margin-top: 70px;
+                margin-left: 45px;
+            }
+            #p{
+                font-family: "Google Sans",Roboto,Arial,sans-serif;
+                font-size: 1.125rem;
+                font-weight: 400;
+                line-height: 1.7rem;
+                word-spacing: 1px;
+                color: rgb(255, 255, 255);
+            }
+
+            #img{
+                position: absolute;
+                left: 600px;
+                width: 450px;
+                height: 450px;
+                margin-left: 60px;
+                margin-top: 30px;
+                border: 2px solid white;
+
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .col{
+                background-color: rgb(35, 37, 87);
+                color: white;
+                width: 200px;
+                height: 200px;
+                padding: 8px;
+                margin: 60px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+                margin-left: 100px;
+                border-radius: 2.5px;
+                box-shadow: 1px 1px 1.5px 1.5px rgb(234, 234, 234);
+            }
+            .row1{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .col1{
+                background-color: rgb(24, 84, 78);
+                color: #e1e1e1;
+                width: 400px;
+                height: 200px;
+                padding: 8px;
+                margin: 60px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+                margin-left: 100px;
+                border-radius: 2.5px;
+                box-shadow: 1px 1px 1.5px 1.5px rgb(112, 171, 165);
+            }
+            .col:hover{
+                box-shadow: 2px 2px 2.5px 2.5px rgb(214, 214, 214);   
+            }
+            .col1:hover{
+                box-shadow: 2px 2px 2.5px 2.5px rgb(112, 171, 165)   
+            }
+            .view1{
+                font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+                font-size: 18px;
+                background-color: rgb(208, 53, 22);
+                color: black;
+                width: 120px;
+                height: 28px;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+            .view{
+                font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+                
+                background-color: rgb(61, 211, 222);
+                color: black;
+                width: 100px;
+                height: 28px;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+            .view:hover{
+                color: rgb(61, 211, 222);
+                background-color: black;
+                border: 2px solid rgb(61, 211, 222);
+            }
+            .view1:hover{
+                color: white;
+                background-color: black;
+                border: 2px solid rgb(208, 53, 22);
+            }
+            .nav{
+                margin-left: 500px;
+            }
+            .portfolio{
+                margin-left: 60px;
+                color: rgb(185, 131, 60);
+            }
+            .contact-details{
+                margin-left: 400px;
+                margin-top: 10px;
+            }
+            .pro_img{
+                width: 160px; height:160px; 
+                margin-left: 200px; 
+                margin-top: 10px; 
+                margin-bottom: 20px;
+            }
+            @media  (max-width: 700px) {
+                .nav{
+                    margin-left: 10px;
+                }
+                .portfolio{
+                    margin-left: 10px;
+                }
+                .head{
+                    margin-left: 0px;
+                    padding: 5px;
+                }
+                .contact-details{
+                    margin-left: 10px;
+                    
+                }
+                .pro_img{
+                    margin-left: 6px;
+                }
+            }
+            
+
+        </style>        
+    </head>
+    <body >
+        <header>
+            <div class = "portfolio">
+                <a> portfolio.</a>
+            </div>
+            <div class= "nav">
+                <a class = "head" href = "#"> <strong>HOME</strong></a>
+                <a class = "head" href = "#skills"> <strong>SKILLS</strong></a>
+                <a class = "head" href = "#projects"> <strong>PROJECTS</strong></a>
+                <a class = "head" href = "#contact"> <strong>CONTACT</strong></a>
+            </div>
+            
+        </header>
+        
+        <div class = "down-header">
+            <div style = "margin-top: -33.5px; margin-left: 30px; color: white; ">
+                <div style = "padding-left: 30px;">
+                    <h1></br></br></br> Hello </br> I am Hemanth </h1>
+                    <p> Student - Programmer - Developer</p>
+                    <hr color = "#e1e1e1" width="25%" size="1" style = "margin-left: 2px;">
+                    <a href = "" class = "view1" style = "padding: 5px; text-align: center; margin-right: 10px; "> <strong> my resume</strong></a>  
+                    <a href = "#contact" class = "view1" style = "padding: 5px; text-align: center;"> <strong> contact </strong></a>
+                </div>
+              
+            </div>
+        </div>
+        <div id = "whoiam">
+            <div style = "display: flex; margin-left: 32px;">
+                
+                <div style = "height : 36px; margin :0">
+                    <h1 style = "margin: 0; height: 36px; font-size: 32px; margin-right: 8px; color: white"> WHO I AM</h1>
+                </div>
+                <div style = "height : 36px">
+                    <img src = "img/que.png" width = "36px" height = "36px">
+                </div>
+            </div>
+            <hr color = "#e1e1e1" width="25%" size="1" style = "margin-left: 32px;">
+            <p id = "p" style="margin-left:32px; width:70%;">
+                Hi, I'am Hemanth</br>
+                At present I was pursuing my under graduate degree in ece at GRIET, Hyderabad.</br>
+                I have a relavant knowledge in the domains like front end web development, IOT and</br>
+                I have basic knowledge in Data-Analysis and ML. </br>
+                This year I got best design award for website DisasterRecovery from Sciensicious.co
+
+            </p>
+             
+        </div>
+        <div id = "skills">
+            <div style = "display: flex; margin-left: 32px; margin-top:  150px;">
+                <div style = "height : 36px">
+                    <img src = "img/flash.png" width = "36px" height = "36px">
+                </div>
+                <div style = "height : 36px; margin :0">
+                    <h1 style = "margin: 0; height: 36px; font-size: 32px; margin-left: 0px; color: white;"> SKILLS</h1>
+                </div>
+            </div>
+            <hr color = "#e1e1e1" width="25%" size="1" style = "margin-left: 32px;">
+             
+             <div class = "row">
+                <div class = "col">
+                    <div style = "display: flex; height: 50px;">
+                        <p style = "font-size: 24;"> Programming Languages <img src = "img/checked.png" width = "10^"></p>
+                    </div>
+                    <ul style = "margin: 0px; font-size: 28px; font-family: Google Sans,Roboto,Arial,sans-serif;">
+                        <li> Java</li>
+                        <li> Python</li>
+                        <li> c</li>
+                    </ul>
+                </div>
+                <div class = "col">
+                    <div style = "display: flex; height: 50px;">
+                        <p style = "font-size: 24;"> Programming Skills <img src = "img/checked.png" width = "10px"></p>
+                    </div>
+                    <ul style = "margin: 0px; font-size: 28px;  font-family: Google Sans,Roboto,Arial,sans-serif;">
+                        <li> DS & Algo</li>
+                        <li> Oops</li>
+                    </ul>
+                </div>
+                <div class = "col">
+                    <div style = "display: flex; height: 50px;">
+                        <p style = "font-size: 24;"> Web Technologies <img src = "img/checked.png" width = "10px"></p>
+                    </div>
+                    <ul style = "margin: 0px; font-size: 28px;  font-family: Google Sans,Roboto,Arial,sans-serif;">
+                        <li> HTML</li>
+                        <li> CSS</li>
+                        <li> JavaScript</li>
+                    </ul>
+                </div>
+                <div class = "col">
+                    <div style = "display: flex; height: 50px;">
+                        <p style = "font-size: 24;">Domains <img src = "img/checked.png" width = "10px"></p>
+                    </div>
+                    <ul style = "margin: 0px; font-size: 25px;  font-family: Google Sans,Roboto,Arial,sans-serif;">
+                        <li> IOT</li>
+                        <li> Front End Developement</li>
+                    </ul>
+                </div>
+            </div>
+            <div id = "projects">
+                <div style = "display: flex; margin-left: 32px; margin-top:  50px;">
+                    <div style = "height : 36px">
+                        <img src = "img/projects.png" width = "36px" height = "36px">
+                    </div>
+                    <div style = "height : 36px; margin :0">
+                        <h1 style = "margin: 0; height: 36px; font-size: 32px; margin-left: 8px; color: white"> PROJECTS</h1>
+                    </div>
+                </div>
+                <hr color = "#e1e1e1" width="25%" size="1" style = "margin-left: 32px;">
+                <div class = "row1">
+                    <div class = "col1">
+                        <center> <h1> DisasterRecovery.</h1></center>
+                        <center> <p style = "font-family: Google Sans,Roboto,Arial,sans-serif;"> A WEBSITE to spread awareness about natural Disasters and to help victims.</p></center>
+                        <a href = "https://github.com/Hemanth0711/web-dev-project" style = "text-decoration: none;"><center> <h1 class = "view" style = "font-size: 24px;"> View </h1></center></a>
+                    </div>
+                    <div class = "col1">
+                        <center> <p style = "margin-top: 70px; font-size: 20px; font-family: Google Sans,Roboto,Arial,sans-serif;"><strong> Data Analysis of Tobacco and Alcohol Consumption over Adults.</strong></p></center>
+                        <a href = "https://github.com/smartinternz02/SBSPS-Challenge-7323-1632922568" style = "text-decoration: none;"><center> <h1 class = "view" style = "font-size: 24px;"> View </h1></center></a>
+                    </div>
+                    <div class = "col1">
+                        <center> <h1> Smart Inhaler</h1></center>
+                        <center> <p style = "font-family: Google Sans,Roboto,Arial,sans-serif;"> A smart IOT device for Asthama patients</p></center>
+                        <a href = "" style = "text-decoration: none;"><center> <h1 class = "view" style = "font-size: 24px;"> View </h1></center></a>
+                    </div>
+                    <div class = "col1">
+                        <center> <h1> Intimating Jacket</h1></center>
+                        <center> <p style = "font-family: Google Sans,Roboto,Arial,sans-serif;"> A smart IOT device for bicyclers</p></center>
+                        <a href = "https://github.com/Hemanth0711/projects_" style = "text-decoration: none;"><center> <h1 class = "view" style = "font-size: 24px;"> View </h1></center></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id = "contact">
+                
+                <div style = "display: flex; margin-left: 32px; margin-top:  50px;">
+                    <div style = "height : 36px">
+                        <img src = "img/contact.png" width = "36px" height = "36px">
+                    </div>
+                    <div style = "height : 36px; margin :0">
+                        <h1 style = "margin: 0; height: 36px; font-size: 32px; margin-left: 8px; color:white"> CONTACT</h1>
+                    </div>
+                </div>
+                <!-- <hr color = "#e1e1e1" width="25%" size="1" style = "margin-left: 32px;"> -->
+                <div style="display: flex; background-color: black; border-top: 1px solid white">
+                    <center class = "contact-details">
+                        <h2 style = "margin-left: 32px; font-family: Google Sans Display,Roboto,Arial,sans-serif; color: white"> Reach out to me!</h2>
+                    <p style = "margin-left: 32px; font-family: Google Sans Display,Roboto,Arial,sans-serif; color:#bababa;"> Want to contact me Or Want to collaborate on a project ? </p>
+            
+                    <div class= "contact-logos">
+                        <a href = "mailto:hemanthsai0711@gmail@example.com?subject = Feedback&body = Message" style=" text-decoration: none;"> 
+                            <img src = "img/281786.png" width = "32px" height = "32px" style= "margin-left : 32px;">
+                        </a>
+                        <a href = "https://github.com/Hemanth0711" style=" text-decoration: none;"> 
+                            <img src = "img/git_purple.png" width = "32px" height = "32px" style= "margin-left : 32px;">
+                        </a>
+                        <a href = "https://www.linkedin.com/in/g-hemanth-sai/" style=" text-decoration: none;"> 
+                            <img src = "img/linkedin.png" width = "32px" height = "32px" style= "margin-left : 32px;">
+                        </a>
+                        <p style = "color: white;"> Privacy policy: Inspect and edit no issues !</p>
+                    </div>
+                    </center>
+                    <div class = "pro_img" >
+                        <img  src = "img/hemanth_profile.jpg" width= "100%" height = "100%" style= "border: 2px solid #e1e1e1; border-radius: 50%;">
+                    </div>
+                    
+                </div>
+                
+            </div>
+    </body>
+</html>
